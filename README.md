@@ -25,6 +25,11 @@ p = Distribution::T.cdf(x)
 include Distribution::Shorthand
 tdist_cdf(x)
 
+Distribution::<name>.(cdf|pdf|p_value|rng)
+Distribution::<name>.exact_(cdf|pdf|p_value)
+<Distribution shortname>_(cdf|pdf|p|r)
+<Distribution shortname>_(ecdf|epdf|ep)
+
 ```
 
 ```
