@@ -20,6 +20,8 @@ gem install rb-gsl
 ```ruby
 pdf = Distribution::Normal.pdf(x)
 cdf = Distribution
+pv = Distribution::Normal.p_value(x)
+p = Distribution::T.cdf(x)
 
 ```
 
