@@ -7,6 +7,7 @@ https://github.com/docker/distribution
 https://github.com/clbustos/distribution
 
 ```
+gem install rb-gsl
 
 ```
 
